@@ -1,0 +1,46 @@
+#pragma once
+enum LVL_FIELD {
+  LVL_NONE = 0,
+  LVL_BRICK = 1,
+  LVL_WHITE = 2,
+  LVL_BRICK_DAMAGED = 6,
+  LVL_EAGLE = 9
+};
+
+enum DIRECTION {
+  DIR_UP = 0,
+  DIR_RIGHT = 1,
+  DIR_DOWN = 2,
+  DIR_LEFT = 3
+};
+
+enum PLAYER_STATE {
+  PLAYER_STOP = 0,
+  PLAYER_DRIVE = 1,
+};
+
+enum OWNER {
+  OWN_PLAYER_ONE = 0,
+  OWN_PLAYER_TWO = 1,
+  OWN_ENEMY = 2
+};
+
+enum ENEMY_TYPE {
+  ENEMY_SLOW = 0,
+  ENEMY_FAST = 1,
+  ENEMY_MEDIUM = 2,
+  ENEMY_BIG = 3,
+  ENEMY_SLOW_BONUS = 4,
+  ENEMY_FAST_BONUS = 5,
+  ENEMY_MEDIUM_BONUS = 6,
+  ENEMY_BIG_BONUS = 7
+};
+
+enum ITEM_TYPE {
+  ITEM_STAR = 0,
+  ITEM_LIFE = 1,
+  ITEM_INVINCIBILITY = 2,
+  ITEM_PROTECT = 3,
+  ITEM_TIME = 4,
+  ITEM_GRANADE = 5
+};
