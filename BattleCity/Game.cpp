@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Game.h"
 void CGame::StartGameplay() {
   Player()->SetPosition(8, 25);

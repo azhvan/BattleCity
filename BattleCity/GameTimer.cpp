@@ -1,3 +1,4 @@
+#include <iostream>
 #include "GameTimer.h"
 #include "Game.h"
 void CGameTimer::Init() {

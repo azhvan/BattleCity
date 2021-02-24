@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Framework.h"
 #include "Game.h"
-#include "Enemy.h"
 
 int WIDTH = 320, HEIGHT = 240;
 
@@ -54,7 +52,7 @@ public:
 		fps_time += delta_time;
 		++fps_count;
 		if (fps_time >= 1.0) {
-			int fps_num = fps_count / double(fps_time);
+			int fps_num =(int)(fps_count / double(fps_time));
 			std::cout << "FPS: " << fps_num << "\n";
 			fps_count = 0;
 			fps_time = 0;

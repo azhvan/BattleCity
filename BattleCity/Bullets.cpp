@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Bullets.h"
 #include "Game.h"
 

@@ -1,5 +1,6 @@
 #include "Level.h"
 #include <iostream>
+#include <string>
 #include <fstream>
 #include "Game.h"
 

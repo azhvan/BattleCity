@@ -1,8 +1,9 @@
 #pragma once
-#include <string>
 #include <fstream>
 #include "Types.h"
 #include "Framework.h"
+
+class string;
 
 struct sBrick {
   sBrick() : topLeft(false), topRight(false), bottomLeft(false), bottomRight(false) { }

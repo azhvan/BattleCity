@@ -29,7 +29,7 @@ public:
   void DestroyBullet(int id);
   void DestroyAllBullets();
 
-  int BulletsNum() { return bullets.size(); }
+  int BulletsNum() { return (int)bullets.size(); }
   std::list <Bullet> AllBullets() { return bullets; }
 
 private:

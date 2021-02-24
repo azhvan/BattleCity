@@ -1,5 +1,3 @@
-#include <cmath>
-#include <iostream>
 #include "Enemy.h"
 #include "Game.h"
 using namespace std;

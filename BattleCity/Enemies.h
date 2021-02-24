@@ -1,6 +1,5 @@
 #pragma once
 #include <list>
-#include <iostream>
 #include <vector>
 #include "Enemy.h"
 #include "Types.h"
@@ -25,7 +24,7 @@ public:
 
   bool Paused() { return enemiesPaused; }
   int Enemies() { return numberOfEnemies; }
-  int AliveEnemies() { return enemies.size(); }
+  int AliveEnemies() { return (int)enemies.size(); }
   int NextSpawnX();
 
   CEnemy* SingleEnemy(int id);

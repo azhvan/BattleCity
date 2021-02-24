@@ -1,5 +1,3 @@
-#include <cmath>
-#include <iostream>
 #include <string>
 #include "Framework.h"
 #include "Player.h"
